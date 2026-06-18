@@ -15,11 +15,10 @@ state-driven transitions between screens and basic structuring of views.
 <h2>Notes</h2>
 
 <p>
-This project serves as a hands-on experiment to better understand SwiftUI navigation behavior, 
-view transitions, and how state impacts navigation flow.
-</p>
-<p>
-Notion: https://secretive-fascinator-c6c.notion.site/9-Navigation-334d7fcea3528088af74d8d578a112bd?source=copy_link
+Detailed learning notes and experiments can be found here:<br>
+<a href="https://secretive-fascinator-c6c.notion.site/9-Navigation-334d7fcea3528088af74d8d578a112bd?source=copy_link">
+SwiftUI Navigation Notes (Notion)
+</a>
 </p>
 
 ## Screenshots
