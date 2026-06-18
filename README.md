@@ -1,44 +1,64 @@
-# iOS Networking Examples
+<h1>NavKit</h1>
 
-A learning-focused Swift repository exploring networking concepts commonly used in iOS applications.
+<p>
+NavKit is a SwiftUI-based project focused on understanding and implementing navigation flows using modern SwiftUI APIs.
+</p>
 
----
+<h2>Overview</h2>
 
-## Overview
+<p>
+This project explores how navigation works in SwiftUI using NavigationStack, along with state-driven transitions between screens and basic structuring of views.
+</p>
 
-This repository contains small, focused examples built while learning networking in iOS. The project explores how applications communicate with remote APIs, handle responses, decode data, and manage asynchronous operations.
-
----
-
-## Notes
+<h2>Notes</h2>
 
 <p>
 Detailed learning notes and experiments can be found here:<br>
-<a href="https://secretive-fascinator-c6c.notion.site/Networking-327d7fcea35280a9b432d591343ac155?source=copy_link">
-iOS Networking Notes (Notion)
+<a href="https://secretive-fascinator-c6c.notion.site/9-Navigation-334d7fcea3528088af74d8d578a112bd?source=copy_link">
+SwiftUI Navigation Notes (Notion)
 </a>
 </p>
 
----
+## Screenshots
 
-## Topics Covered
+<p align="center">
+  <img src="https://github.com/zeeshan2k2/NavKit/blob/main/Screenshot/main.png" width="250" height="500">
+</p>
 
-- URLSession
-- HTTP Requests
-- HTTP Methods
-- Request Configuration
-- JSON Decoding
-- Codable
-- Error Handling
-- Async Networking
-- Response Validation
-- API Integration
+<h2>Focus Areas</h2>
 
----
+<ul>
+  <li>Navigation using NavigationStack</li>
+  <li>Basic state-driven navigation</li>
+  <li>Passing data between views</li>
+  <li>Understanding navigation flow in SwiftUI</li>
+  <li>Clean and simple view structure</li>
+</ul>
 
-## Tech Stack
+<h2>Approach</h2>
 
-- **Language:** Swift
-- **Framework:** UIKit / SwiftUI
-- **Networking:** URLSession
-- **Data Parsing:** Codable
+<p>
+The project keeps things simple and focused, using SwiftUI’s built-in navigation tools without over-engineering. The goal is to clearly understand how navigation behaves rather than abstracting it too early.
+</p>
+
+<h2>Goal</h2>
+
+<p>
+To build a solid foundation in SwiftUI navigation and understand how to manage screen transitions and data flow in small to mid-sized apps.
+</p>
+
+<h2>Key Principle</h2>
+
+<pre>
+UI = f(state)
+
+state change
+→ navigation update
+→ view transition
+</pre>
+
+<h2>Disclaimer</h2>
+
+<p>
+This repository is intended for learning purposes and experimentation with SwiftUI navigation.
+</p>
